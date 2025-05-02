@@ -40,9 +40,7 @@ export default async function Home() {
             <Link href="https://nextjs.org/docs">Next.js</Link>
           </li>
           <li>
-            <Link href="https://neobrutalism.dev/">
-              Neobrutalism components
-            </Link>
+            <Link href="https://neobrutalism.dev/">Neobrutalism</Link>
           </li>
           <li>
             <Link href="https://prisma.io/orm">Prisma ORM</Link>
