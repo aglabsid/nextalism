@@ -16,8 +16,9 @@ const fontMono = FontMono({
 })
 
 export const metadata: Metadata = {
-  title: 'Nextalism',
-  description: 'Next.js with Neobrutalism style',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL),
+  title: '🧱 Nextalism',
+  description: 'Minimalist Next.js app template with Neobrutalism UI',
 }
 
 export default function RootLayout({
