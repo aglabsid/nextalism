@@ -1,5 +1,14 @@
 import { prisma } from '@/prisma'
 
+const getUsers = async () => {
+  try {
+    return await prisma.user.findMany()
+  } catch (error) {
+    console.error('Error fetching users:', error)
+    return []
+  }
+}
+
 const Link = ({
   href,
   children,
@@ -18,7 +27,7 @@ const Link = ({
 )
 
 export default async function Home() {
-  const users = await prisma.user.findMany()
+  const users = await getUsers()
   console.log(users)
 
   return (
