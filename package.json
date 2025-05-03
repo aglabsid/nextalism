@@ -12,6 +12,10 @@
     "db:migrate": "drizzle-kit migrate",
     "db:check": "drizzle-kit check"
   },
+  "engines": {
+    "node": ">=22.x"
+  },
+  "packageManager": "pnpm@10.10.0",
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
