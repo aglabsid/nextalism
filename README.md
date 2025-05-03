@@ -4,7 +4,7 @@ A minimalist Next.js app template with Neobrutalism UI.
 
 - [Next.js](https://nextjs.org/)
 - [Neobrutalism](https://neobrutalism.dev/)
-- [Prisma ORM](https://prisma.io/orm)
+- [Drizzle ORM](https://orm.drizzle.team/)
 
 ## Getting Started
 
@@ -26,10 +26,10 @@ A minimalist Next.js app template with Neobrutalism UI.
    pnpm install
    ```
 
-4. Sync prisma schema with the database.
+4. Sync schema with the database.
 
    ```bash
-   pnpm db:push
+   pnpm db:migrate
    ```
 
 5. Start the development server.

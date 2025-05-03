@@ -36,7 +36,7 @@ export default async function Home() {
       <h1 className="text-center text-5xl font-bold">Hello Nextalism! 👋</h1>
       <div className="mt-8 border-4 border-border bg-emerald-50 px-8 py-4">
         <p className="mb-2 font-bold">Read docs:</p>
-        <ul className="list-disc pl-6 font-medium">
+        <ul className="min-w-[12rem] list-disc pl-6 font-medium">
           <li>
             <Link href="https://nextjs.org/docs">Next.js</Link>
           </li>
@@ -44,7 +44,7 @@ export default async function Home() {
             <Link href="https://neobrutalism.dev/">Neobrutalism</Link>
           </li>
           <li>
-            <Link href="https://prisma.io/orm">Prisma ORM</Link>
+            <Link href="https://orm.drizzle.team/">Drizzle ORM</Link>
           </li>
         </ul>
       </div>
