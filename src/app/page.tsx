@@ -1,8 +1,9 @@
-import { prisma } from '@/prisma'
+import { users } from '@/db/schema/users'
+import db from '@/lib/db'
 
 const getUsers = async () => {
   try {
-    return await prisma.user.findMany()
+    return await db.select().from(users)
   } catch (error) {
     console.error('Error fetching users:', error)
     return []
